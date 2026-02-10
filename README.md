@@ -23,3 +23,5 @@ Lo script esegue chiamate in parallelo, registra ogni singola risposta e genera 
    ```bash
    python -m venv venv
    source venv/bin/activate  # Su Windows: venv\Scripts\activate
+   ```
+3. Esegui `pip install -r requirements.txt`.
