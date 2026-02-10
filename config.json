@@ -1,0 +1,17 @@
+{
+  "targets": [
+    {
+      "url": "https://httpbin.org/post",
+      "method": "POST",
+      "body": {"key": "value", "test": 123}
+    },
+    {
+      "url": "https://httpbin.org/get",
+      "method": "GET",
+      "body": null
+    }
+  ],
+  "parallel_users": 10,
+  "total_requests": 20,
+  "delay_ms": 500
+}
